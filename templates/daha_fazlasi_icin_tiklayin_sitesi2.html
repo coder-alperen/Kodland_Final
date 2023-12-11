@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Daha Fazlası İçin Tıklayın</title>
+    <link rel="stylesheet" href="../static/css/style.css"" >
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <al href="#">LOGO</al>
+            </div>
+            <ul>
+                <li><a href="{{ url_for('ana_sayfa')}}"class="active">Ana Sayfa</a></li>
+                <li><a href="{{ url_for('hakkimizda')}}">Hakkimizda</a></li>
+                <li><a href="{{url_for('hizmetler')}}">Hizmetler</a></li>
+                <li><a href="{{url_for('ürünler')}}">Ürünler</a></li>
+                <li><a href="{{url_for('iletişim')}}">İletişim</a></li>
+            </ul>
+        </div>
+        <div class="center">
+            <h1>Daha fazlası için tıklayın</h1>
+        </div>
+    </div>
+
+</body>
+</html>
